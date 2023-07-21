@@ -25,11 +25,51 @@ main {
     flex-direction: column;
 }
 
+.footer .credit {
+    text-align: center;
+    margin-top: 7rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: rgb(26, 24, 24);
+    border-top: 0.1rem solid #545b5978
+}
+
+.footer .credit span {
+    color: #0e351b;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid red;*/
+    position: absolute;
+    left: 34px;
+    top: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.left div a {
+    text-decoration: none;
+    color: #0000007a;
+}
+
+.left img {
+    display: inline-block;
+    width: 57px;
+    margin-right: 0px;
+    border-radius: 9px;
+    opacity: 0.6;
+    margin-left: 17px;
+}
+
 .row {
     width: 1000px;
     display: flex;
-    justify-content: center;  /* horizontally center*/
-    align-items: center;   /* vertically center*/
+    justify-content: center;
+    /* horizontally center*/
+    align-items: center;
+    /* vertically center*/
     margin: 10px;
     /* height: 100px; */
     /* border: 1px red solid; */

@@ -10,6 +10,12 @@
 </head>
 
 <body>
+
+    <div class="left">
+        <img src="/img/weatherLogo.jpeg" alt="">
+        <div><a href="home.html">Weather App</a></div>
+    </div>
+
     <main>
         <!-- app background -->
         <video id="background-video" autoplay loop muted>
@@ -24,16 +30,22 @@
         </div>
 
         <!-- location and temperature -->
-        <div class="row" id="weather">
-            <div>
-                <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="">
-            </div>
+        <div class="weather-card">
+            <div class="row" id="weather">
+                <div>
+                    <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="">
+                </div>
 
-            <div>
-                <h2>32 °C</h2>
-                <h4>Clear</h4>
+                <div>
+                    <h2>32 °C</h2>
+                    <h4>Clear</h4>
+                </div>
             </div>
         </div>
+
+        <section class="footer">
+            <div class="credit"> created by <span>mitesh chaudhari</span> | all rights reserved! </div>
+        </section>
 
         <script src="app.js"></script>
     </main>
